@@ -6,12 +6,15 @@ import { initializeApp } from 'firebase/app';
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: "upendra-estate.firebaseapp.com",
-  projectId: "upendra-estate",
-  storageBucket: "upendra-estate.appspot.com",
-  messagingSenderId: "406610467672",
-  appId: "1:406610467672:web:fec9aa933a045346e8632d"
+  authDomain: "sahand-jwt-auth.firebaseapp.com",
+  projectId: "sahand-jwt-auth",
+  storageBucket: "sahand-jwt-auth.appspot.com",
+  messagingSenderId: "882407887823",
+  appId: "1:882407887823:web:7de8f0356e93ac5322b8ba"
 };
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
+
+
+
